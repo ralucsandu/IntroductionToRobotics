@@ -21,3 +21,5 @@ The control must be done with digital electronics(you must read the value of the
 ![alt text](https://github.com/ralucsandu/IntroductionToRobotics/blob/main/Homework1/setup-picture4.jpeg?raw=true)
 ![alt text](https://github.com/ralucsandu/IntroductionToRobotics/blob/main/Homework1/setup-picture5.jpeg?raw=true)
 
+## Video Demo
+https://www.youtube.com/watch?v=ZVdF3sxtMVs
