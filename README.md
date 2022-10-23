@@ -4,7 +4,9 @@ Here is my joruney of learning Robotics. Below are the homework I did for the In
 
 ## Assignments
 
-### Homework 0 - creating a GitHub Repo and installing Arduino IDE
+### Homework 0
+Creating a GitHub Repo and installing Arduino IDE
 
 
-### Homework 1 - 
+### Homework 1 
+Lighting up an RGB led using 3 potentiometers
