@@ -8,5 +8,5 @@ Here is my joruney of learning Robotics. Below are the homework I did for the In
 Creating a GitHub Repo and installing Arduino IDE
 
 
-### Homework 1 
+### [Homework 1](https://github.com/ralucsandu/IntroductionToRobotics/tree/main/Homework1) 
 Lighting up an RGB led using 3 potentiometers
