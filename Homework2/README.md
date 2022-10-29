@@ -23,4 +23,4 @@ Building the traffic lights for a crosswalk. You will use 2 LEDs to represent th
 ![alt text](https://github.com/ralucsandu/IntroductionToRobotics/blob/main/Homework2/setup-picture2.jpg?raw=true)
 
 ## Video Demo
-[https://www.youtube.com/watch?v=ZVdF3sxtMVs]
+https://www.youtube.com/watch?v=5oAmhog4NxU
