@@ -10,3 +10,6 @@ Creating a GitHub Repo and installing Arduino IDE
 
 ### [Homework 1](https://github.com/ralucsandu/IntroductionToRobotics/tree/main/Homework1) 
 Lighting up an RGB led using 3 potentiometers
+
+### [Homework 2](https://github.com/ralucsandu/IntroductionToRobotics/tree/main/Homework2) 
+Traffic Lights simulator
