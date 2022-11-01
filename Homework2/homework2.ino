@@ -31,14 +31,14 @@ byte carGreenState = HIGH,
 byte read = LOW,
      lastRead = LOW;
 
-unsigned int beepCounter = 0;
+unsigned long beepCounter = 0;
 
-unsigned int buttonPressDelay = 10;
+unsigned long buttonPressDelay = 10;
 
-unsigned int buttonPressBeginTime = 0,
+unsigned long buttonPressBeginTime = 0,
              lastButtonPressTime = 0;
 
-unsigned int state2BeginTime = 0,
+unsigned long state2BeginTime = 0,
              state3BeginTime = 0,
              state4BeginTime = 0;
 
