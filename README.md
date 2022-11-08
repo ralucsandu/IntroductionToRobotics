@@ -13,3 +13,7 @@ Lighting up an RGB led using 3 potentiometers
 
 ### [Homework 2](https://github.com/ralucsandu/IntroductionToRobotics/tree/main/Homework2) 
 Traffic Lights simulator
+
+### [Homework 3](https://github.com/ralucsandu/IntroductionToRobotics/tree/main/Homework3) 
+Controlling a 7-segments display using a joystick
+
