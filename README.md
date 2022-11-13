@@ -17,3 +17,6 @@ Traffic Lights simulator
 ### [Homework 3](https://github.com/ralucsandu/IntroductionToRobotics/tree/main/Homework3) 
 Controlling a 7-segments display using a joystick
 
+### [Homework 4](https://github.com/ralucsandu/IntroductionToRobotics/tree/main/Homework4) 
+Controlling 4 7-segments displays using a joystick
+
