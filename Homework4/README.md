@@ -22,4 +22,4 @@ Use the joystick to move through the 4 digit 7-segments displays digits, press t
 ![alt text](https://github.com/ralucsandu/IntroductionToRobotics/blob/main/Homework4/setup-picture.jpeg?raw=true)
 
 ## Video Demo
-TODO
+https://www.youtube.com/watch?v=EICP2hDnsDo
