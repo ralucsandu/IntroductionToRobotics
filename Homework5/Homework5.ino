@@ -506,7 +506,12 @@ void setMatrixBrightness() {
   lc.clearDisplay(0);
   for (int i = 0; i < matrixSize; ++i)
     lc.setRow(0, i, matrixLedsOn);
-  backToMenu(settingsMenuSelected, buttonSettingsDecider);
+  if(backToMenu(settingsMenuSelected, buttonSettingsDecider))
+  {
+    for(int row = 0; row < matrixSize; ++row)
+      for(int col = 0; col < matrixSize; ++col)
+        turnOffPixel(row,col);
+  }
 }
 
 void setSound() {
