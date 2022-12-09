@@ -29,10 +29,11 @@ const int buzzerDuration = 20000;
 const byte rs = 13;
 const byte en = 8;
 const byte d4 = 7;
-const byte d5 = 6;
+const byte d5 = 3;
 const byte d6 = 5;
 const byte d7 = 4;
-const byte pinA = 3;
+
+const byte pinA = 6;
 const byte pinV0 = 9;
 
 //joystick pins
@@ -70,6 +71,8 @@ unsigned int matrixBrightness = 0;
 const int maxContrastBrightness = 255;
 
 bool sound = true;
+
+bool introOK = true;
 
 char menuStructure[numberOfMenuOptions][20] = {
   "   Game Menu  ",
@@ -140,6 +143,17 @@ byte heart[matrixSize] = {
   B00100,
   B00000,
   B00000
+};
+
+byte hungryFace[matrixSize] = {
+  B00000,
+  B00111,
+  B01010,
+  B11100,
+  B11000,
+  B11100,
+  B01110,
+  B00111
 };
 
 bool buttonDecider = 0;
@@ -506,11 +520,10 @@ void setMatrixBrightness() {
   lc.clearDisplay(0);
   for (int i = 0; i < matrixSize; ++i)
     lc.setRow(0, i, matrixLedsOn);
-  if(backToMenu(settingsMenuSelected, buttonSettingsDecider))
-  {
-    for(int row = 0; row < matrixSize; ++row)
-      for(int col = 0; col < matrixSize; ++col)
-        turnOffPixel(row,col);
+  if (backToMenu(settingsMenuSelected, buttonSettingsDecider)) {
+    for (int row = 0; row < matrixSize; ++row)
+      for (int col = 0; col < matrixSize; ++col)
+        turnOffPixel(row, col);
   }
 }
 
@@ -644,6 +657,7 @@ void setup() {
   lcd.createChar(1, up);
   lcd.createChar(2, full);
   lcd.createChar(3, heart);
+  lcd.createChar(4, hungryFace);
   analogWrite(3, 40);
   pinMode(pinSW, INPUT_PULLUP);
   pinMode(pinX, INPUT);
@@ -663,6 +677,17 @@ void setup() {
 
 void loop() {
 
+  if (introOK) {
+    lcd.setCursor(0, 0);
+    lcd.print("   Welcome to   ");
+    lcd.setCursor(0, 1);
+    lcd.print("  Pixel Eater ");
+    lcd.write(byte(4));
+    lcd.print("*");
+    delay(3000);
+    lcd.clear();
+    introOK = false;
+  }
   if (gameMenuSelected == true)
     menuScroller();
 
