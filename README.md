@@ -20,3 +20,8 @@ Controlling a 7-segments display using a joystick
 ### [Homework 4](https://github.com/ralucsandu/IntroductionToRobotics/tree/main/Homework4) 
 Controlling 4 7-segments displays using a joystick
 
+### [Homework 5](https://github.com/ralucsandu/IntroductionToRobotics/tree/main/Homework5) 
+Menu for a 8x8 led matrix game
+
+### [Pixel Eater](https://github.com/ralucsandu/PixelEaterGame)
+Pixel Eater - 8x8 led matrix game
